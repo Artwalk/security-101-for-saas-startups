@@ -1,6 +1,21 @@
+## 第 1 阶段︰ 在客厅里工作 （或 生活在工作）
 ## Phase 1: Working in the living room (or living at work)
 
+### 分享管理员密码
 ### Sharing Admin Passwords
+
+* 任何产品具有至少一个用户-管理员。你当你的小公司有 4 人时，你至少可以把默认的 admin 密码替换为一个复杂的密码，用支持共享的密码管理器共享出去。
+
+* 共享的原因是为了避免只有一个雇员有系统权限，而另一名员工也需要它的情况。
+
+* 它是最好为每个服务的每个人有不同的账户。中庸之道是创建系统管理员账号（为特殊情况），（每天工作的）开发人员账号和 '服务' 账号 （你的代码）。这个主意好处是当开发人员离开，你不需要替换你的服务密码。
+
+* 向你的员工解释，最终他们需要记住两个密码，笔记本电脑的密码和密码管理器的密码。
+
+* 向你的员工解释，不要使用他们"家"或"个人"的密码。这些密码有可能已经暴露，或即将被暴露。请参阅 [https://haveibeenpwned.com] (https://haveibeenpwned.com)
+
+* 解释如何选择密码管理器密码。原因可参考 [Sophos 的短视频] (https://nakedsecurity.sophos.com/2014/10/01/how-to-pick-a-proper-password) 。
+![如何挑选正确的密码](https://github.com/Artwalk/security-101-for-saas-startups/raw/abs-image-links-for-embedding/images/image_0.png)
 
 * Any product has at least one user - the admin. The minimum you could do when your small startup is about 4 people, is to replace the default admin password with a complex password and share it with a password manager that supports sharing.
 
@@ -14,6 +29,23 @@
 
 * Explain how to choose the password manager's password. There's a[ short video by Sophos](https://nakedsecurity.sophos.com/2014/10/01/how-to-pick-a-proper-password) that explains it.
 ![how to pick a proper password](https://github.com/forter/security-101-for-saas-startups/raw/abs-image-links-for-embedding/images/image_0.png)
+
+### 网络钓鱼电子邮件、 色情和种子是魔鬼的化身
+
+* 雇员可能会在家里用工作笔记本做自己的事情。也行。然而，从第一天，要求你的员工别用它下种子或色情或任何其他可疑的网站。让他们买个 2 手笔记本电脑。
+
+* 如果你被黑了，最有可能起始于员工点击一个链接在网络钓鱼电子邮件。作为你创业公司娱乐之一是玩[网络钓鱼测验] (https://www.google.com/search?q=Phishing%2520Quiz)。
+
+* 停止使用电子邮件附件。习惯打开电子邮件附件的员工是第一次无意中安装恶意软件。可以用 Google Drive 文档共享，或者如果您是在监管环境，可以用 [更贵的盒子] (https://www.box.com/security/it-admin-controls)。
+
+* 其他内部通信用 Slack。电子邮件是用来与客户和供应商联系的。
+
+* 使用你的密码管理器共享密码、 凭据和秘密笔记。
+
+* 停止使用磁盘密钥。
+
+* 更多相关信息读 [DBIR 报告] (https://www.google.com/search?q=DBIR%2520Report)。
+
 
 ### Phishing emails, porn and torrents are the devil in disguise
 
